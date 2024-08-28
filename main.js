@@ -1,4 +1,12 @@
-// Import the data to customize and insert them into page
+
+window.addEventListener('load', () => {
+  const audio = document.getElementById('myAudio');
+  audio.play().catch(error => {
+      console.error('Error playing audio:', error);
+  });
+});
+
+// Import the   data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())

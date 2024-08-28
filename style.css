@@ -234,13 +234,13 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 50%;
+    left: 42%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 50%;
+    left: 45%;
   }
 }
 
@@ -252,7 +252,7 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 50%;
+    left: 45%;
   }
 }
 
